@@ -11,6 +11,7 @@ google.*##html
 wikipedia.org##html
 ! ========================= Element Hiding Exception ==========================
 login.microsoftonline.com#@#html
+myaccount.microsoft.com#@#html
 teams.microsoft.com#@#html
 outlook.office.com#@#html
 padlet.com#@#html
