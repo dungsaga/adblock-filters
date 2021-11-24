@@ -3,7 +3,7 @@
 ! Title: Adblock for Kid Study
 ! Expires: 1 days
 ! Version: 0.2
-! Last modified: 13/10/2021
+! Last modified: 24/11/2021
 ! let's fork it
 
 ! ========================== General Element Hiding ===========================
@@ -18,7 +18,7 @@ login.microsoftonline.com#@#html
 myaccount.microsoft.com#@#html
 teams.microsoft.com#@#html
 outlook.office.com#@#html
-##padlet.com#@#html
+padlet.com#@#html
 menti.com#@#html
 joinmyquizziz.com#@#html
 quizizz.com#@#html
