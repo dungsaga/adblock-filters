@@ -22,5 +22,5 @@ padlet.com#@#html
 menti.com#@#html
 joinmyquizziz.com#@#html
 quizizz.com#@#html
-##blooket.com#@#html
+!blooket.com#@#html
 !@@||github.com^$generichide
