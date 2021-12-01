@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Homepage: https://github.com/dungsaga/adblock-kid-study
-! Title: Adblock for Kid Study
+! Title: Adblock for Kid Study 2
 ! Expires: 1 days
 ! Version: 0.2
 ! Last modified: 24/11/2021
