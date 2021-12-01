@@ -1,0 +1,26 @@
+[Adblock Plus 2.0]
+! Homepage: https://github.com/dungsaga/adblock-kid-study
+! Title: Adblock for Kid Study 3
+! Expires: 1 days
+! Version: 0.2
+! Last modified: 13/10/2021
+! let's fork it
+
+! ========================== General Element Hiding ===========================
+##html
+google.*##html
+wikipedia.org##html
+||youtube.com^$script,image,media,object
+||googlevideo.com^$script,image,media,object
+
+! ========================= Element Hiding Exception ==========================
+login.microsoftonline.com#@#html
+myaccount.microsoft.com#@#html
+teams.microsoft.com#@#html
+outlook.office.com#@#html
+padlet.com#@#html
+menti.com#@#html
+joinmyquizziz.com#@#html
+quizizz.com#@#html
+!blooket.com#@#html
+!@@||github.com^$generichide
