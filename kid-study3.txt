@@ -18,7 +18,7 @@ login.microsoftonline.com#@#html
 myaccount.microsoft.com#@#html
 teams.microsoft.com#@#html
 outlook.office.com#@#html
-padlet.com#@#html
+!padlet.com#@#html
 menti.com#@#html
 joinmyquizziz.com#@#html
 quizizz.com#@#html
