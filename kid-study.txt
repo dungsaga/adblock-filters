@@ -12,6 +12,7 @@ google.*##html
 wikipedia.org##html
 ||youtube.com^$script,image,media,object
 ||googlevideo.com^$script,image,media,object
+!@@||github.com^$generichide
 
 ! ========================= Element Hiding Exception ==========================
 login.microsoftonline.com#@#html
@@ -24,10 +25,14 @@ hanoithanglongxalaedu.sharepoint.com#@#html
 
 padlet.com#@#html
 menti.com#@#html
+
 joinmyquizziz.com#@#html
 quizizz.com#@#html
 blooket.com#@#html
-!@@||github.com^$generichide
 
 www.liveworksheets.com#@#html
+www.educandy.com#@#html
+wordwall.net#@#html
+
+! Collaborate & Create Amazing Graphic Design for Free
 canva.com#@#html
