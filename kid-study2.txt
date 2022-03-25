@@ -14,6 +14,8 @@ wikipedia.org##html
 ||googlevideo.com^$script,image,media,object
 
 ! ========================= Element Hiding Exception ==========================
+!@@||github.com^$generichide
+
 login.microsoftonline.com#@#html
 myaccount.microsoft.com#@#html
 teams.microsoft.com#@#html
