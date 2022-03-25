@@ -14,13 +14,29 @@ wikipedia.org##html
 ||googlevideo.com^$script,image,media,object
 
 ! ========================= Element Hiding Exception ==========================
+!@@||github.com^$generichide
+
 login.microsoftonline.com#@#html
 myaccount.microsoft.com#@#html
 teams.microsoft.com#@#html
 outlook.office.com#@#html
-!padlet.com#@#html
+
+sharepoint.com#@#html
+hanoithanglongxalaedu.sharepoint.com#@#html
+
+! padlet.com#@#html
 menti.com#@#html
+
 joinmyquizziz.com#@#html
 quizizz.com#@#html
-!blooket.com#@#html
-!@@||github.com^$generichide
+! blooket.com#@#html
+
+www.liveworksheets.com#@#html
+www.educandy.com#@#html
+wordwall.net#@#html
+
+hanoithanglongxala.sharepoint.com#@#html
+! topicanative.edu.vn#@#html
+
+! Collaborate & Create Amazing Graphic Design for Free
+! canva.com#@#html
