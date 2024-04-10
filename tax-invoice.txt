@@ -1,0 +1,11 @@
+! Title: uBlock filters for some tax/invoice websites
+! Expires: 5 days
+! Last modified: 10 Apr 2024 15:15:15 +0000
+! License: Creative Commons Zero v1.0 Universal
+! Homepage: https://github.com/dungsaga/adblock-filters
+
+! allow connect to websocket of ESigner.Chrome.TCT 1.0.9
+@@||127.0.0.1:876*^$websocket,domain=thuedientu.gdt.gov.vn
+
+! allow connect to websocket of BkavCA Signer Plugin 2.2.0
+@@||localhost:8354^$websocket,domain=van.echungtu.vn
