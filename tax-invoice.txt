@@ -9,3 +9,4 @@
 
 ! allow connect to websocket of BkavCA Signer Plugin 2.2.0
 @@||localhost:8354^$websocket,domain=van.echungtu.vn
+@@||localhost:8354^$websocket,domain=van.ehoadon.vn
