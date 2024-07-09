@@ -1,0 +1,34 @@
+! Title: bring back purple text to differentiate visited links from unvisited links
+! Expires: 5 days
+! Last modified: 09 July 2024 16:16:16 +0000
+! License: Creative Commons Zero v1.0 Universal
+! Homepage: https://github.com/dungsaga/adblock-filters
+
+!! *##a:visited:style(color: orange !important)
+*#$#a:visited { color: violet !important; }
+*#$#a:visited:hover * { color: violet !important; }
+
+!! links in comment
+news.ycombinator.com#$#.comment .commtext > a { color: skyblue !important; }
+news.ycombinator.com#$#.comment .commtext > p a { color: skyblue !important; }
+news.ycombinator.com#$#.comment .commtext > a:visited { color: violet !important; }
+news.ycombinator.com#$#.comment .commtext > p a:visited { color: violet !important; }
+lobste.rs#$#.comment .comment_text a { color: skyblue !important; }
+lobste.rs#$#.comment .comment_text a:visited { color: violet !important; }
+
+!! links in main article
+www.theregister.com#$##page #main-col .article_wrap .centre_col #article a { background: darkblue !important; }
+www.theguardian.com#$##maincontent a { color: orange !important; }
+www.theguardian.com#$##maincontent a:visited { color: violet !important; }
+
+!! youtube.com#$#a.yt-simple-endpoint:visited { color: violet !important; }
+!! overlay in video
+youtube.com#$#a.ytp-ce-covering-overlay:visited * { color: violet !important; }
+!! suggested videos
+youtube.com#$#a:visited .ytd-compact-video-renderer { color: violet !important; }
+!! videos in notification
+youtube.com#$#a:visited .text.ytd-notification-renderer { color: violet !important; }
+!! videos in channel
+youtube.com#$#a.yt-simple-endpoint:visited #video-title { color: violet !important; }
+!! channel in search result
+youtube.com#$#a.yt-simple-endpoint:visited .ytd-channel-name { color: violet !important; }
