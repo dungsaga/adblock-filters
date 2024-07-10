@@ -1,6 +1,6 @@
 ! Title: bring back purple text to differentiate visited links from unvisited links
 ! Expires: 5 days
-! Last modified: 09 July 2024 16:16:16 +0000
+! Last modified: 10 July 2024 16:16:16 +0000
 ! License: Creative Commons Zero v1.0 Universal
 ! Homepage: https://github.com/dungsaga/adblock-filters
 
@@ -20,6 +20,7 @@ lobste.rs#$#.comment .comment_text a:visited { color: violet !important; }
 www.theregister.com#$##page #main-col .article_wrap .centre_col #article a { background: darkblue !important; }
 www.theguardian.com#$##maincontent a { color: orange !important; }
 www.theguardian.com#$##maincontent a:visited { color: violet !important; }
+rmprepusb.blogspot.com#$#a { color: orange !important; }
 
 !! youtube.com#$#a.yt-simple-endpoint:visited { color: violet !important; }
 !! overlay in video
