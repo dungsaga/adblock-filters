@@ -20,7 +20,9 @@ lobste.rs#$#.comment .comment_text a:visited { color: violet !important; }
 www.theregister.com#$##page #main-col .article_wrap .centre_col #article a { background: darkblue !important; }
 www.theguardian.com#$##maincontent a { color: orange !important; }
 www.theguardian.com#$##maincontent a:visited { color: violet !important; }
-rmprepusb.blogspot.com#$#a { color: orange !important; }
+
+rmprepusb.blogspot.com#$#a { color: skyblue !important; }
+theverge.com#$##content a { color: skyblue !important; }
 
 !! youtube.com#$#a.yt-simple-endpoint:visited { color: violet !important; }
 !! overlay in video
