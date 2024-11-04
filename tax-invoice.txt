@@ -1,4 +1,4 @@
-! Title: uBlock filters for some tax/invoice websites
+thue! Title: uBlock filters for some tax/invoice websites
 ! Expires: 5 days
 ! Last modified: 20 May 2024 15:15:15 +0000
 ! License: Creative Commons Zero v1.0 Universal
@@ -6,6 +6,7 @@
 
 ! allow connect to websocket of ESigner.Chrome.TCT 1.0.9
 @@||127.0.0.1:876*^$websocket,domain=thuedientu.gdt.gov.vn
+@@||127.0.0.1:1089^$websocket,domain=hoadondientu.gdt.gov.vn
 
 ! allow connect to websocket of BkavCA Signer Plugin 2.2.0
 @@||localhost:8354^$websocket,domain=van.echungtu.vn
