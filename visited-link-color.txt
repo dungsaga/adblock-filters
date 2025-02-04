@@ -1,12 +1,12 @@
 ! Title: bring back purple text to differentiate visited links from unvisited links
 ! Expires: 5 days
-! Last modified: 13 July 2024 16:16:16 +0000
+! Last modified: 04 Feb 2025 23:36:36 +0000
 ! License: Creative Commons Zero v1.0 Universal
 ! Homepage: https://github.com/dungsaga/adblock-filters
 
 !! *##a:visited:style(color: orange !important)
 *#$#a:visited { color: violet !important; }
-*#$#a:visited:hover * { color: violet !important; }
+*#$#a:visited:hover * { color: violet !important; background-color: yellow !important; }
 
 !! links in comment
 news.ycombinator.com#$#.comment .commtext > a { color: skyblue !important; }
@@ -35,3 +35,10 @@ youtube.com#$#a:visited .text.ytd-notification-renderer { color: violet !importa
 youtube.com#$#a.yt-simple-endpoint:visited #video-title { color: violet !important; }
 !! channel in search result
 youtube.com#$#a.yt-simple-endpoint:visited .ytd-channel-name { color: violet !important; }
+
+!! hide advert in bottom edge
+www.otofun.net##.u-bottomFixer
+
+!! vietjack.com : show question as block, show choices as inline-block
+www.vietjack.com#$#.main div.content p { display: inline-block !important; }
+www.vietjack.com#$#.main div.content p:has(strong) { display: block !important; margin-top: 20px; }
