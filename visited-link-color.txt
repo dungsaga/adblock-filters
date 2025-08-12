@@ -17,7 +17,7 @@ lobste.rs#$#.comment .comment_text a { color: skyblue !important; }
 lobste.rs#$#.comment .comment_text a:visited { color: violet !important; }
 
 !! links in main article
-www.theregister.com#$##page #main-col .article_wrap .centre_col #article a { background: gray !important; }
+www.theregister.com#$##page #main-col .article_wrap .centre_col #article a { color: blue !important; }
 www.theguardian.com#$##maincontent a { color: orange !important; }
 www.theguardian.com#$##maincontent a:visited { color: violet !important; }
 
