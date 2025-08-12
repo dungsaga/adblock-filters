@@ -1,6 +1,6 @@
 ! Title: bring back purple text to differentiate visited links from unvisited links
 ! Expires: 5 days
-! Last modified: 04 Feb 2025 23:36:36 +0000
+! Last modified: 10 Aug 2025 23:36:36 +0000
 ! License: Creative Commons Zero v1.0 Universal
 ! Homepage: https://github.com/dungsaga/adblock-filters
 
